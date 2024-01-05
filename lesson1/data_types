@@ -1,0 +1,63 @@
+first = "Dave"
+last = "gray"
+
+# # print(type(first)) 
+# # print(type(first) == str)
+
+# # pizza = str("pepperoni")
+# # print(type(pizza)) 
+# # print(type(pizza) == str)
+
+
+# # fullname = first + " " + last
+# # print(fullname)
+# # fullname += "!"
+# # print(fullname)
+
+# decade = str(1980)
+# print(type(decade))
+# print(decade)
+
+# statement = "I like rock music from the " + decade + "s."
+# print(statement)
+
+# multiline = '''
+# Hey, how are you?                       
+# I was jus cheking.
+#                         All good?
+
+# '''
+# print(multiline)
+# sentence = 'I\'m'
+# print(sentence)
+# sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at?'
+# print(sentence)
+
+# print(first.lower())
+# print(first.upper())
+# print(first)
+
+# print(multiline.title())
+
+title = "menu".upper()
+print(title.center(20, '='))
+print("coffee".ljust(16, ".") + "$1".rjust(4))
+print("muffin".ljust(16, ".") + "$2".rjust(4))
+print("cheesecake".ljust(16, ".") + "$4".rjust(4))
+
+print(" ")
+
+print(first[0])
+print(first[1])
+print(first[2])
+print(first[3])
+print(first[-2])
+
+print(" ")
+
+print(first[1:])
+
+print(first.startswith("D"))
+print(first.endswith("Z"))
+
+
